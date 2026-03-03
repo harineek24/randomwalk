@@ -1,10 +1,10 @@
 import SectionHeader from './SectionHeader'
 
 const CANVA_VIEW_URL =
-  'https://www.canva.com/design/DAF_dFbConc/3UGCgFEGgRRiEi6mS7xSqA/view'
+  'https://www.canva.com/design/DAF_dFbConc/ZUOd1sl4D3dmGdhzC8cYdg/view?utm_content=DAF_dFbConc&utm_campaign=designshare&utm_medium=embeds&utm_source=link'
 
 const CANVA_EMBED_URL =
-  'https://www.canva.com/design/DAF_dFbConc/3UGCgFEGgRRiEi6mS7xSqA/view?embed'
+  'https://www.canva.com/design/DAF_dFbConc/ZUOd1sl4D3dmGdhzC8cYdg/view?embed'
 
 const processSteps = [
   {
@@ -47,15 +47,17 @@ export default function UserJourneys() {
               <span className="w-3 h-3 rounded-full bg-yellow-500/70" />
               <span className="w-3 h-3 rounded-full bg-green-500/70" />
             </div>
-            <span className="text-xs text-slate-500 ml-2">User Journey Workflows</span>
+            <span className="text-xs text-slate-500 ml-2">User Journey Roadmap</span>
           </div>
-          <iframe
-            src={CANVA_EMBED_URL}
-            className="w-full h-[500px] md:h-[600px]"
-            title="User Journey Workflows"
-            allowFullScreen
-            loading="lazy"
-          />
+          <div className="relative w-full" style={{ paddingTop: '100%' }}>
+            <iframe
+              src={CANVA_EMBED_URL}
+              className="absolute inset-0 w-full h-full"
+              title="User Journey Workflows"
+              allowFullScreen
+              loading="lazy"
+            />
+          </div>
         </div>
 
         {/* Open externally */}
