@@ -27,8 +27,10 @@ export default function Hero() {
         </h1>
 
         <p className="text-lg text-slate-400 max-w-2xl mx-auto leading-relaxed">
-          From market research and data analysis to user journey design and
-          executive presentations — a showcase of cross-functional impact.
+          I conducted in-depth market research and competitive analysis, designed
+          end-to-end user journey workflows, built reporting dashboards, and
+          delivered executive presentations on digital maturity in HR — all while
+          developing the workflows that tied these efforts together.
         </p>
       </div>
     </section>
