@@ -37,7 +37,7 @@ export default function Hero() {
         </p>
 
         <a
-          href="#presentation"
+          href="#user-journeys"
           className="inline-block px-6 py-3 bg-primary hover:bg-primary-dark rounded-lg text-white font-medium transition-all duration-200 hover:shadow-lg hover:shadow-primary/25"
         >
           View My Work
