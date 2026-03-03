@@ -31,17 +31,10 @@ export default function Hero() {
           </span>
         </h1>
 
-        <p className="text-lg text-slate-400 max-w-2xl mx-auto mb-8 leading-relaxed">
+        <p className="text-lg text-slate-400 max-w-2xl mx-auto leading-relaxed">
           From market research and data analysis to user journey design and
           executive presentations — a showcase of cross-functional impact.
         </p>
-
-        <a
-          href="#user-journeys"
-          className="inline-block px-6 py-3 bg-primary hover:bg-primary-dark rounded-lg text-white font-medium transition-all duration-200 hover:shadow-lg hover:shadow-primary/25"
-        >
-          View My Work
-        </a>
       </div>
     </section>
   )
