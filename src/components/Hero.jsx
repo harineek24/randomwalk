@@ -18,11 +18,6 @@ export default function Hero() {
       />
 
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
-        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary/10 border border-primary/20 text-primary text-sm font-medium mb-6">
-          <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-          Startup Internship Portfolio
-        </div>
-
         <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-white leading-[1.1] mb-4">
           Wearing Multiple Hats
           <br />
