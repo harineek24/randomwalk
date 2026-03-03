@@ -6,36 +6,18 @@ const SPREADSHEET_URL =
 const SPREADSHEET_EMBED =
   'https://docs.google.com/spreadsheets/d/1Ta0MKjSKu0QDUU3L4UXCZ7pLp-n402RO/preview'
 
-const highlights = [
-  {
-    title: 'Competitive Landscape',
-    description:
-      'Mapped key competitors, their positioning, pricing models, and feature sets to identify market gaps.',
-  },
-  {
-    title: 'Data-Driven Insights',
-    description:
-      'Collected and structured quantitative and qualitative data to support strategic decision-making.',
-  },
-  {
-    title: 'Actionable Recommendations',
-    description:
-      'Translated raw data into clear, prioritized recommendations for the product and leadership teams.',
-  },
-]
-
 export default function MarketResearch() {
   return (
-    <section id="market-research" className="py-24 px-6">
+    <section id="market-research" className="py-16 px-6">
       <div className="max-w-6xl mx-auto">
         <SectionHeader
           label="Market Research"
           title="Comprehensive Market Analysis"
-          description="Built an in-depth market research spreadsheet covering competitive analysis, market sizing, and strategic insights that informed key business decisions."
+          description="Built an in-depth market research spreadsheet covering competitive analysis, market sizing, and strategic insights."
         />
 
         {/* Embed */}
-        <div className="relative rounded-2xl overflow-hidden border border-white/10 bg-surface-light mb-12 shadow-2xl shadow-black/20">
+        <div className="relative rounded-2xl overflow-hidden border border-white/10 bg-surface-light mb-6 shadow-2xl shadow-black/20">
           <div className="flex items-center gap-2 px-4 py-3 bg-surface-lighter/50 border-b border-white/5">
             <div className="flex gap-1.5">
               <span className="w-3 h-3 rounded-full bg-red-500/70" />
@@ -53,7 +35,7 @@ export default function MarketResearch() {
         </div>
 
         {/* Open externally */}
-        <div className="text-center mb-16">
+        <div className="text-center">
           <a
             href={SPREADSHEET_URL}
             target="_blank"
@@ -65,19 +47,6 @@ export default function MarketResearch() {
             </svg>
             Open Full Spreadsheet
           </a>
-        </div>
-
-        {/* Highlights */}
-        <div className="grid md:grid-cols-3 gap-6">
-          {highlights.map((item) => (
-            <div
-              key={item.title}
-              className="p-6 rounded-xl bg-surface-light/60 border border-white/5 hover:border-primary/20 transition-all duration-300"
-            >
-              <h3 className="text-lg font-semibold text-white mb-2">{item.title}</h3>
-              <p className="text-sm text-slate-400 leading-relaxed">{item.description}</p>
-            </div>
-          ))}
         </div>
       </div>
     </section>
