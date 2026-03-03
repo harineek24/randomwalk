@@ -30,7 +30,8 @@ export default function Hero() {
           I conducted in-depth market research and competitive analysis, designed
           end-to-end user journey workflows, built reporting dashboards, and
           delivered executive presentations on digital maturity in HR — all while
-          developing the workflows that tied these efforts together.
+          developing the workflows that tied these efforts together. I also took
+          part in client meetings with AcademyXi and helped onboard them.
         </p>
       </div>
     </section>
