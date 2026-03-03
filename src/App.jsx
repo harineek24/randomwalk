@@ -1,4 +1,3 @@
-import Hero from './components/Hero'
 import Presentations from './components/Presentations'
 import UserJourneys from './components/UserJourneys'
 import MarketResearch from './components/MarketResearch'
@@ -8,7 +7,6 @@ import ScrollReveal from './components/ScrollReveal'
 export default function App() {
   return (
     <div className="min-h-screen bg-surface text-slate-200">
-      <Hero />
       <ScrollReveal>
         <Presentations />
       </ScrollReveal>
