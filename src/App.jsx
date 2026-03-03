@@ -13,10 +13,10 @@ export default function App() {
         <Presentations />
       </ScrollReveal>
       <ScrollReveal>
-        <UserJourneys />
+        <MarketResearch />
       </ScrollReveal>
       <ScrollReveal>
-        <MarketResearch />
+        <UserJourneys />
       </ScrollReveal>
       <Footer />
     </div>
