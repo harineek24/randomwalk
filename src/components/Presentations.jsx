@@ -1,10 +1,10 @@
 import SectionHeader from './SectionHeader'
 
 const CANVA_VIEW_URL =
-  'https://www.canva.com/design/DAF_S65NSm0/KF5Jm3hRjAYYIMuRq1GZKQ/view'
+  'https://www.canva.com/design/DAF_S65NSm0/3Z-DKfTKj3oeEYuEfyevQg/watch?utm_content=DAF_S65NSm0&utm_campaign=designshare&utm_medium=embeds&utm_source=link'
 
 const CANVA_EMBED_URL =
-  'https://www.canva.com/design/DAF_S65NSm0/KF5Jm3hRjAYYIMuRq1GZKQ/view?embed'
+  'https://www.canva.com/design/DAF_S65NSm0/3Z-DKfTKj3oeEYuEfyevQg/watch?embed'
 
 const strengths = [
   {
@@ -42,15 +42,17 @@ export default function Presentations() {
               <span className="w-3 h-3 rounded-full bg-yellow-500/70" />
               <span className="w-3 h-3 rounded-full bg-green-500/70" />
             </div>
-            <span className="text-xs text-slate-500 ml-2">Presentation Deck</span>
+            <span className="text-xs text-slate-500 ml-2">Digital Maturity HR — Presentation</span>
           </div>
-          <iframe
-            src={CANVA_EMBED_URL}
-            className="w-full h-[500px] md:h-[600px]"
-            title="Presentation Deck"
-            allowFullScreen
-            loading="lazy"
-          />
+          <div className="relative w-full" style={{ paddingTop: '141.4286%' }}>
+            <iframe
+              src={CANVA_EMBED_URL}
+              className="absolute inset-0 w-full h-full"
+              title="Digital Maturity HR Presentation"
+              allowFullScreen
+              loading="lazy"
+            />
+          </div>
         </div>
 
         {/* Open externally */}
